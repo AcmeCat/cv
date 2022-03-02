@@ -1,4 +1,16 @@
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-top {
+    background-color: #1C658C;
+}
+
+.section-two {
+    background-color: #398AB9
+}
+
+.section-three {
     background-color: #D8D2CB;
 }
 
