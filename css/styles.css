@@ -1,25 +1,105 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
 }
 
 .section-top {
-    background-color: #1C658C;
 }
 
-.section-two {
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 300px;
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    transform-style: preserve-3d;
+}
+
+.stars-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.stars-background {
+    background:#002;
+    transform: translateZ(-800px) scale(4);
+    z-index: 0;
+}
+
+.stars-rear {
+    background: url('../images/stars1.png') no-repeat center;
+    background-size: cover;
+    transform: translateZ(-600px) scale(3);
+    z-index: 1;
+}
+
+.stars-mid {
+    background: url('../images/stars2.png') no-repeat center;
+    background-size: cover;
+    transform: translateZ(-525px) scale(2.75);
+    z-index: 2;
+}
+
+.stars-front {
+    background: url('../images/stars3.png') no-repeat center;
+    background-size: cover;
+    transform: translateZ(-400px) scale(2.33333333);
+    z-index: 3;
+}
+.top-layer {
+    background: linear-gradient(
+        rgba(28, 100, 140, 0.25) 0%,
+        rgba(57, 138, 185, 0.25) 86%,
+        rgba(216, 210, 203, 0.25) 100%
+    );
+    background-size: cover;
+    transform: translateZ(0) scale(1);
+    z-index: 6;
+}
+
+.section-me {
     background-color: #398AB9
 }
 
-.section-three {
+.section-projects {
     background-color: #D8D2CB;
 }
 
-hr {
-    border-style: none;
-    border-top: 5px dotted #EEEEEE;
-    width: 7%;
+.house {
+    scale: 1.25;
+    margin-top: 7%;
 }
 
-h1, h3 {
+h1, h2, h3 {
     color: #EEEEEE;
+}
+
+h1 {
+    margin-top: 10%;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+
+p {
+    color: #1C658C;
 }

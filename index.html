@@ -5,89 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
     <title>🎤 Rory's Personal Site</title>
 </head>
 <body>
-    <div class="section-top">
-        <table cellspacing="20">
-            <tr>
-                <td><img src="mugMini.png" alt="a magestic creature"></td>
-                <td><h1>Rory Allen</h1>
-                    <p><em>Founder and CTO of <strong>Ill Tech</strong></em></p>
-                    <p>I am a Web and Native Mobile Developer. I love jamming with friends, and Dungeons & Dragons</p></td>
-            </tr>
-        </table>
+    <div class="wrapper">
+        <div class="section section-top">
+                <div class="stars-layer stars-background"></div>
+                <div class="stars-layer stars-rear"></div>
+                <div class="stars-layer stars-mid"></div>
+                <div class="stars-layer stars-front"></div>
+                <div class="stars-layer top-layer">
+                    <h1>Rory Allen</h1>
+                    <h2>a coder</h2>
+                    <img class="house" src="images/House1.png" alt="a simple neon house">
+                </div>
+        </div>
+        <div class="section section-me">
+            <img src="mugMini.png" alt="a magestic creature">
+            <p><em>Founder and CTO of <strong>Ill Tech</strong></em></p>
+            <p>I am a developer of web-reliant native mobile applications. I love jamming with friends, and Dungeons & Dragons</p>
+            
+            <hr>
+            <h3>Work Experience</h3>
+            <table cellspacing="10">
+                <tr>
+                <th>Year</th>
+                <th>Position</th>
+                <th>Company</th>
+                </tr>
+                <tr>
+                <td>2012-2016</td>
+                <td>Support Manager</td>
+                <td>DigiDNA Australia</td>
+                </tr>
+            </table>
+        </div>
+        <div class="section section-projects">
+            <h3>Skills</h3>
+            <table cellspacing="10">
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>Swift Language</td>
+                                <td>☆☆☆☆</td>
+                            </tr>
+                            <tr>
+                                <td>SwiftUI Framework</td>
+                                <td>☆☆☆</td>
+                            </tr>
+                            <tr>
+                                <td>SpriteKit Framework</td>
+                                <td>☆☆☆☆</td>
+                            </tr>
+                            <tr>
+                                <td>AVKit Framework</td>
+                                <td>☆☆☆</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>Builder Pattern</td>
+                                <td>☆☆</td>
+                            </tr>
+                            <tr>
+                                <td>Factory Pattern</td>
+                                <td>☆☆☆</td>
+                            </tr>
+                            <tr>
+                                <td>Dependency Injection</td>
+                                <td>☆☆</td>
+                            </tr>
+                            <tr>
+                                <td>MVC/MVVM Pattern</td>
+                                <td>☆☆☆☆</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <h3>Published Work</h3>
+            <ul>
+                <li><a href="https://apps.apple.com/au/app/ill-technique/id1124362253">Ill Technique (iOS)</a></li>
+                <li><a href="https://apps.apple.com/ph/app/antsteroids/id1470018188">Antsteroids! (iOS)</a></li>
+            </ul>
+            <hr>
+            <a href="hobbies.html">My Hobbies</a>
+            <a href="contact-me.html">Contact Me</a>
+        </div>
     </div>
-    <div class="section-two">
-        <h3>Published Work</h3>
-        <ul>
-            <li><a href="https://apps.apple.com/au/app/ill-technique/id1124362253">Ill Technique (iOS)</a></li>
-            <li><a href="https://apps.apple.com/ph/app/antsteroids/id1470018188">Antsteroids! (iOS)</a></li>
-        </ul>
-        <hr>
-        <h3>Work Experience</h3>
-        <table cellspacing="10">
-            <tr>
-            <th>Year</th>
-            <th>Position</th>
-            <th>Company</th>
-            </tr>
-            <tr>
-            <td>2012-2016</td>
-            <td>Support Manager</td>
-            <td>DigiDNA Australia</td>
-            </tr>
-        </table>
-    </div>
-    <div class="section-three">
-        <h3>Skills</h3>
-        <table cellspacing="10">
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Swift Language</td>
-                            <td>☆☆☆☆</td>
-                        </tr>
-                        <tr>
-                            <td>SwiftUI Framework</td>
-                            <td>☆☆☆</td>
-                        </tr>
-                        <tr>
-                            <td>SpriteKit Framework</td>
-                            <td>☆☆☆☆</td>
-                        </tr>
-                        <tr>
-                            <td>AVKit Framework</td>
-                            <td>☆☆☆</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Builder Pattern</td>
-                            <td>☆☆</td>
-                        </tr>
-                        <tr>
-                            <td>Factory Pattern</td>
-                            <td>☆☆☆</td>
-                        </tr>
-                        <tr>
-                            <td>Dependency Injection</td>
-                            <td>☆☆</td>
-                        </tr>
-                        <tr>
-                            <td>MVC/MVVM Pattern</td>
-                            <td>☆☆☆☆</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <a href="hobbies.html">My Hobbies</a>
-        <a href="contact-me.html">Contact Me</a>
-    </div>
+    
 </body>
 </html>
