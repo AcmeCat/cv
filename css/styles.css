@@ -66,8 +66,21 @@ body {
     z-index: 6;
 }
 
+.divider-layer {
+    color: #002;
+}
+
+.section-divider {
+    height: 20vh;
+}
+
 .section-me {
-    background-color: #398AB9
+    background-color: #398AB9;
+    height: 50vh;
+}
+
+.section-skills {
+    background-color: #398AB9;
 }
 
 .section-projects {
