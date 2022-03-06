@@ -4,14 +4,11 @@ body {
     text-align: center;
 }
 
-.section-top {
-}
-
 .wrapper {
-    height: 100vh;
+    height: 90vh;
     overflow-x: hidden;
     overflow-y: auto;
-    perspective: 300px;
+    perspective: 20rem;
 }
 
 .section {
@@ -31,30 +28,31 @@ body {
 
 .stars-background {
     background:#002;
-    transform: translateZ(-800px) scale(4);
-    z-index: 0;
+    transform: translateZ(-400px) scale(3);
+    z-index: -4;
 }
 
 .stars-rear {
-    background: url('../images/stars1.png') no-repeat center;
+    background: url('../images/stars1.png') repeat-y center;
     background-size: cover;
-    transform: translateZ(-600px) scale(3);
-    z-index: 1;
+    transform: translateZ(-300px) scale(2.5);
+    z-index: -3;
 }
 
 .stars-mid {
-    background: url('../images/stars2.png') no-repeat center;
+    background: url('../images/stars2.png') repeat-y center;
     background-size: cover;
-    transform: translateZ(-525px) scale(2.75);
-    z-index: 2;
+    transform: translateZ(-200px) scale(2);
+    z-index: -2;
 }
 
 .stars-front {
-    background: url('../images/stars3.png') no-repeat center;
+    background: url('../images/stars3.png') repeat-y center;
     background-size: cover;
-    transform: translateZ(-400px) scale(2.33333333);
-    z-index: 3;
+    transform: translateZ(-100px) scale(1.5);
+    z-index: -1;
 }
+
 .top-layer {
     background: linear-gradient(
         rgba(28, 100, 140, 0.25) 0%,
@@ -63,11 +61,14 @@ body {
     );
     background-size: cover;
     transform: translateZ(0) scale(1);
-    z-index: 6;
+    z-index: 0;
 }
 
 .divider-layer {
-    color: #002;
+    background: url('../images/stars1.png') repeat-y center;
+    background-size: cover;
+    transform: translateZ(-300px) scale(2.5);
+    z-index: 1;
 }
 
 .section-divider {
@@ -116,3 +117,17 @@ h2 {
 p {
     color: #1C658C;
 }
+
+.parallax { 
+    /* The image used */
+    background-image: url("../images/AntsteroidsCap1.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
