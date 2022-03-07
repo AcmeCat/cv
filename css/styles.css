@@ -10,17 +10,17 @@ body {
 }
 
 .section-me {
-    background-color: #398AB9;
+    background-color: #EEEEEE;
     padding: 5%;
 }
 
 .section-skills {
-    background-color: #398AB9;
+    background-color: #EEEEEE;
     padding: 5%;
 }
 
 .section-projects {
-    background-color: #D8D2CB;
+    background-color: #EEEEEE;
     padding: 5%;
 }
 
@@ -31,13 +31,11 @@ body {
 
 .majestic {
     margin: 30px auto;
-}
-
-h1, h2, h3 {
-    color: #EEEEEE;
+    width: 15%;
 }
 
 h1 {
+    color: #D8D2CB;
     margin-top: 0;
     margin-bottom: 10vh;
     font-family: 'Sacramento', cursive;
@@ -45,6 +43,7 @@ h1 {
 }
 
 h2, h3 {
+    color: #398AB9;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -81,13 +80,13 @@ p {
 .skill-img-1 {
     float: left;
     margin-right: 30px;
-    width: 15%;
+    width: 25%;
 }
 
 .skill-img-2 {
     float: right;
     margin-left: 30px;
-    width: 15%;
+    width: 25%;
 }
 
 .skill-row {
@@ -95,4 +94,18 @@ p {
     margin: 100px auto;
     text-align: left;
     line-height: 2;
+}
+
+.footer {
+    background-color: #398AB9;
+}
+
+.intro {
+    width: 30%;
+    margin: 30px auto;
+}
+
+.copyright {
+    color: #D8D2CB;
+    font-size: 0.75rem;
 }
